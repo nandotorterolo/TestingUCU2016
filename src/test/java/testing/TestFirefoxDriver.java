@@ -1,4 +1,4 @@
-package com.testing;
+package testing;
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -6,10 +6,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 
-public class myfirsttest {
+public class TestFirefoxDriver {
 
     @Test
-    public void startWebDriver(){
+    public void testStartWithTittle(){
 
         WebDriver driver = new FirefoxDriver();
 
