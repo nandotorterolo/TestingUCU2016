@@ -62,7 +62,7 @@
                 <version>4.1.0</version>
                 <configuration>
                     <sourceEncoding>UTF-8</sourceEncoding>
-                    <repoToken>yourcoverallsprojectrepositorytoken</repoToken>
+                    <repoToken>gjR9XCTjIZMvCedWtMIhHt0Z8ECxQYZ9V</repoToken>
                 </configuration>
             </plugin>
         </plugins>
