@@ -56,14 +56,15 @@
                     <target>1.7</target>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.eluder.coveralls</groupId>
-                <artifactId>coveralls-maven-plugin</artifactId>
-                <version>4.1.0</version>
-                <configuration>
-                    <sourceEncoding>UTF-8</sourceEncoding>
-                </configuration>
-            </plugin>
+            <!--<plugin>-->
+                <!--<groupId>org.eluder.coveralls</groupId>-->
+                <!--<artifactId>coveralls-maven-plugin</artifactId>-->
+                <!--<version>4.1.0</version>-->
+                <!--<configuration>-->
+                    <!--<sourceEncoding>UTF-8</sourceEncoding>-->
+                    <!--<repoToken>yourcoverallsprojectrepositorytoken</repoToken>-->
+                <!--</configuration>-->
+            <!--</plugin>-->
         </plugins>
     </build>
 
