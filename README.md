@@ -2,25 +2,22 @@
 Testing UCU 2016
 
 
-## dependencias
-
+## Dependencies
 
 Selenium
 
 Junit
 
-## plugins
+## Plugins
 
 maven-compiler-plugin
 
 org.eluder.coveralls: https://github.com/trautonen/coveralls-maven-plugin
 
-## Continuous Integration
-
+## Tools 
+*Continuous Integration*
 Travis CI:  https://travis-ci.org/nandotorterolo/TestingUCU2016
+Check your .travis.yml config. http://lint.travis-ci.org/
 
-
-Tools: 
-
-Uses travis-yaml to check your .travis.yml config.
-http://lint.travis-ci.org/
+*Code Coverage*
+https://coveralls.io/repos

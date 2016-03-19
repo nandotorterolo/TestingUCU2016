@@ -62,7 +62,7 @@
                 <version>4.1.0</version>
                 <configuration>
                     <sourceEncoding>UTF-8</sourceEncoding>
-                    <repoToken>gjR9XCTjIZMvCedWtMIhHt0Z8ECxQYZ9V</repoToken>
+                    <!--<repoToken>gjR9XCTjIZMvCedWtMIhHt0Z8ECxQYZ9V</repoToken>-->
                 </configuration>
             </plugin>
             <plugin>
@@ -74,6 +74,7 @@
                     <maxmem>256m</maxmem>
                     <!-- aggregated reports for multi-module projects -->
                     <aggregate>true</aggregate>
+                    <check></check>
                 </configuration>
             </plugin>
         </plugins>
