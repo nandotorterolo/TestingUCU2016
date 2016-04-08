@@ -4,8 +4,12 @@ Testing UCU 2016
 <p align="center">
     <a href="https://travis-ci.org/nandotorterolo/TestingUCU2016">
         <img src="https://img.shields.io/travis/nandotorterolo/TestingUCU2016.svg"
-             alt="build status">
+            alt="build status">
     </a>
+ 
+    <a href='https://coveralls.io/github/nandotorterolo/TestingUCU2016?branch=master'>
+        <img src='https://coveralls.io/repos/github/nandotorterolo/TestingUCU2016/badge.svg?branch=master' alt='Coverage Status' />
+    </a> 
 </p>
 
 ## Dependencies
@@ -29,3 +33,5 @@ Check your .travis.yml config. http://lint.travis-ci.org/
 
 *Code Coverage*
 https://coveralls.io/repos
+
+[![Coverage Status](https://coveralls.io/repos/github/nandotorterolo/TestingUCU2016/badge.svg?branch=master)](https://coveralls.io/github/nandotorterolo/TestingUCU2016?branch=master)
