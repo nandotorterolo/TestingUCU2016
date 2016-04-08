@@ -1,6 +1,7 @@
 # TestingUCU2016
 Testing UCU 2016
 
+[![Travis](https://img.shields.io/travis/nandotorterolo/TestingUCU2016.svg)]()
 
 ## Dependencies
 
