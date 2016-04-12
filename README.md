@@ -1,5 +1,5 @@
 # TestingUCU2016
-Testing UCU 2016
+Testing UCU 2016, testing sobre un desarrollo web en una página demo e-commerce.
 
 <p align="center">
     <a href="https://travis-ci.org/nandotorterolo/TestingUCU2016">
@@ -16,15 +16,12 @@ Testing UCU 2016
     </a>
 </p>
 
-## Dependencies
-
-Selenium
-
-Junit
 
 ## Plugins
 
 [Compiler] (https://maven.apache.org/plugins/maven-compiler-plugin/)
+
+[Cobertura] (http://www.mojohaus.org/cobertura-maven-plugin/index.html)
 
 [Coveralls] (https://github.com/trautonen/coveralls-maven-plugin)
 
