@@ -24,18 +24,15 @@ Junit
 
 ## Plugins
 
-maven-compiler-plugin
+[Compiler] (https://maven.apache.org/plugins/maven-compiler-plugin/)
 
-org.eluder.coveralls: https://github.com/trautonen/coveralls-maven-plugin
+[Coveralls] (https://github.com/trautonen/coveralls-maven-plugin)
+
+[Versioneye] (https://github.com/versioneye/versioneye_maven_plugin) 
 
 ## Tools 
-*Continuous Integration*
+*Travis CI*  (https://travis-ci.org/)
 
-Travis CI:  https://travis-ci.org/nandotorterolo/TestingUCU2016
+*Travis CI Lint* (http://lint.travis-ci.org/)
 
-Check your .travis.yml config. http://lint.travis-ci.org/
-
-*Code Coverage*
-https://coveralls.io/repos
-
-[![Coverage Status](https://coveralls.io/repos/github/nandotorterolo/TestingUCU2016/badge.svg?branch=master)](https://coveralls.io/github/nandotorterolo/TestingUCU2016?branch=master)
+*Code Coverage*  (https://coveralls.io/repos)
