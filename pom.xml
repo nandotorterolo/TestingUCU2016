@@ -82,6 +82,14 @@
                     <check></check>
                 </configuration>
             </plugin>
+            <plugin>
+                <groupId>com.versioneye</groupId>
+                <artifactId>versioneye-maven-plugin</artifactId>
+                <version>2.0.1</version>
+                <configuration>
+                    <!--<apiKey>/home/fernando/.m2/versioneye.properties</apiKey>-->
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 

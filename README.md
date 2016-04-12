@@ -10,6 +10,10 @@ Testing UCU 2016
     <a href='https://coveralls.io/github/nandotorterolo/TestingUCU2016?branch=master'>
         <img src='https://coveralls.io/repos/github/nandotorterolo/TestingUCU2016/badge.svg?branch=master' alt='Coverage Status' />
     </a> 
+    
+    <a href='https://www.versioneye.com/user/projects/570ce21f99574d0010b3feea'>
+      <img src='https://www.versioneye.com/user/projects/570ce21f99574d0010b3feea/badge.svg?style=flat' alt="Dependency Status" />
+    </a>
 </p>
 
 ## Dependencies
