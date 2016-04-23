@@ -9,6 +9,9 @@ import junitparams.JUnitParamsRunner;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
+import java.text.ParseException;
+import java.util.Locale;
+
 @RunWith(JUnitParamsRunner.class)
 public class NameUtilsTest {
 
@@ -30,6 +33,23 @@ public class NameUtilsTest {
         int ib = Integer.parseInt(b);
         int ic = Integer.parseInt(expected);
         assertEquals("Error al sumar", ic, ia + ib);
+    }
+
+    @Test
+    public void testParseNumber() throws ParseException {
+        final String dollarsA = "$199.00";
+        final String real = "R$ 399,00";
+        final String dollarsB = "£25.00";
+        final String tailingEuro = "90,83 €";
+        final String dollarsC = "$199.00";
+        final String dirham = "AED 449.00";
+
+        System.out.println(NameUtils.parse(dollarsA, Locale.US));
+        System.out.println(NameUtils.parse(real, Locale.FRANCE));
+        System.out.println(NameUtils.parse(dollarsB, Locale.US));
+        System.out.println(NameUtils.parse(tailingEuro, Locale.FRANCE));
+        System.out.println(NameUtils.parse(dollarsC, Locale.US));
+        System.out.println(NameUtils.parse(dirham, Locale.US));
     }
 
 }
